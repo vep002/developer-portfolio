@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    description1: "I'm Victoria (everyone calls me V). I'm a full stack software engineer based in Minneapolis, MN.",
+    description2: "Currently working on contract, looking for a full-time salaried postion. I'd love to be more connected to the work I do. Outside o my day job, I'm working on improving my bootcamp final project The Sewcialiast Agenda. I'm also developing a budget tracking app. My hobbies include sewing, learning to play piano, and cooking.",
     image: 2
 }

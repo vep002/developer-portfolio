@@ -167,7 +167,7 @@ function Contacts() {
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Contact</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
@@ -311,8 +311,33 @@ function Contacts() {
                                 {contactsData.address}
                             </p>
                         </div>
+                        <div className='personal-details'>
+                        {socialsData.github && (
+                                <a
+                                    href={socialsData.github}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaGithub aria-label='GitHub' />
+                                </a>
+                            )}
+                            <p style={{ color: theme.tertiary }}>
+                                Check out my GitHub
+                            </p>
+                        </div>
 
-                        <div className='socialmedia-icons'>
+                        {/* <div className='socialmedia-icons'>
+                        {socialsData.github && (
+                                <a
+                                    href={socialsData.github}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaGithub aria-label='GitHub' />
+                                </a>
+                            )}
                             {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
@@ -323,16 +348,7 @@ function Contacts() {
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
                             )}
-                            {socialsData.github && (
-                                <a
-                                    href={socialsData.github}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaGithub aria-label='GitHub' />
-                                </a>
-                            )}
+
                             {socialsData.linkedIn && (
                                 <a
                                     href={socialsData.linkedIn}
@@ -423,7 +439,7 @@ function Contacts() {
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
                             )}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

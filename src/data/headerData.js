@@ -1,9 +1,9 @@
 import resume from '../assets/pdf/resume.pdf'
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    name: 'Victoria Perkins',
+    title: "Software Engineer",
+    desciption:"Policy analyst turned welder turned full stack developer with hands-on experience in JavaScript, React, and Ruby on Rails. My unconventional background encapsulates my pursuit of constant learning as well as my skills in problem solving, project management, and design thinking. ",
+    image: 'https://user-images.githubusercontent.com/81920458/167007829-c9290f43-8ff7-4d95-9ecb-1c7b7f354447.png',
     resumePdf: resume
 }
